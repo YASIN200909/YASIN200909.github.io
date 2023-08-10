@@ -1,0 +1,152 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sop{
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    color: black;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background: url(/img/Group\ 19popopop.png);
+    background-position: center;
+    background-size: cover;
+}
+ul{
+   display: flex;
+   justify-content: space-between;
+
+}
+.Koko{
+    color: white;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}   
+.block{
+    display: flex;
+
+}
+.block li{
+    padding: 20px;
+}
+.card1{
+    display: flex;
+}
+.lorem{
+    margin-top: 10%;
+    color: white;
+    margin: 10%;
+} 
+.uiui{
+    margin-top: 10%;
+}  
+body{
+    background: #0B1D26;
+}
+.yellow{
+    color: goldenrod;
+    margin-top: 5%;
+    margin: 10%;
+}
+.h1{
+    color: white;
+    font-size: 40px;
+    margin: 10%;
+}
+.o1{
+    color: rgba(255, 255, 255, 0.132);
+    font-size: 200px;
+    margin: 10%;
+}
+.lili{
+    display: flex;
+}
+.o2{
+    color: rgba(255, 255, 255, 0.132);
+    font-size: 200px;
+    margin: 10%;
+}
+.h2{
+    color: white;
+    font-size: 40px;
+    margin: 10%;
+}
+.yello{
+    color: goldenrod;
+    margin-top: 5%;
+    margin: 5%;
+}
+.lo{
+    margin-top: 10%;
+    color: white;
+    margin: 10%;
+} 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin: 10%;
+}
+.card6{
+    color: white;
+}
+.orj{
+    color: #FBD784;
+}
+@media all and (min-width:300px) and (max-width: 590px){
+    header{
+        width: 145%;
+        height: 400px;
+        background-size: cover;
+        background-position: center; 
+        justify-content: center;
+    }
+    .o1{
+        font-size: 30px;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .uiui{
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card1{
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        width: 470px;
+    }
+    .lorem{
+        font-size: 13px;
+    }
+    .yellow{
+        font-size: 12px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+    
+        
+    
+
+    
+   
+
+    
+
